@@ -26,6 +26,7 @@ public class AppEmoji {
             nomeDoFilme
         );
         //e exibir
+        // ImageIcon icon = new ImageIcon("src/downloads/stitch.png");
         JPanel panel = new JPanel();
         panel.setBackground(new Color(153, 51, 153));
         panel.setSize(new Dimension(200, 64));
@@ -33,14 +34,14 @@ public class AppEmoji {
         panel.setLayout(null);
         
         JLabel label = new JLabel(s);
-        label.setForeground(Color.PINK);
+        label.setForeground(Color.pink);
         label.setBounds(0, 0, 200, 64);
         label.setFont(new Font("text-davinci-003", Font.BOLD, 48));
         label.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(label);
 
         UIManager.put("OptionPane.minimumSize",new Dimension(300, 120));        
-        JOptionPane.showMessageDialog(null, panel, "Customized Message Dialog", JOptionPane.PLAIN_MESSAGE, null);
+        JOptionPane.showMessageDialog(null, panel, "Emojis", JOptionPane.PLAIN_MESSAGE, null);
         // JOptionPane.showMessageDialog(null, s);
     }
 }
