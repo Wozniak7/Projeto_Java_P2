@@ -34,12 +34,12 @@ public class AppTraducao {
         
         JLabel label = new JLabel(s);
         label.setForeground(Color.black);
-        label.setBounds(0, 0, 400, 200);
+        label.setBounds(0, 0, 550, 200);
         label.setFont(new Font("Arial", Font.BOLD, 16));
         label.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(label);
 
-        UIManager.put("OptionPane.minimumSize",new Dimension(500, 200));        
+        UIManager.put("OptionPane.minimumSize",new Dimension(600, 250));        
         JOptionPane.showMessageDialog(null, panel, "Tradução", JOptionPane.PLAIN_MESSAGE, null);
         // JOptionPane.showMessageDialog(null, s);
     }
