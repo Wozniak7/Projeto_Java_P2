@@ -19,7 +19,7 @@ public class ChatGPTTraducao {
       "text-davinci-003",
       prompt,
       100,
-      2
+      1
     );
 
     var gson = new Gson();

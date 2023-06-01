@@ -19,7 +19,7 @@ public class ChatGPTEmoji {
       "text-davinci-003",
       prompt,
       100,
-      3
+      1
     );
 
     var gson = new Gson();
